@@ -1,0 +1,3 @@
+Navigation {
+ .Open another activity = StartActivity + SecondActivity "navigation_1 + navigation_2"
+}

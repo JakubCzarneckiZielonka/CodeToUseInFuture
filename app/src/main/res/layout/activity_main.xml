@@ -17,7 +17,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btn_1"
+        android:id="@+id/main_btn_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Pierwsza Animacja"
@@ -28,7 +28,7 @@
         app:layout_constraintVertical_bias="0.402" />
 
     <Button
-        android:id="@+id/btn_2"
+        android:id="@+id/main_btn_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="druga animacja"
@@ -39,15 +39,35 @@
         app:layout_constraintVertical_bias="0.632" />
 
     <Button
-        android:id="@+id/btn_3"
+        android:id="@+id/main_btn_3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button to generated layout"
+        android:text="do przenoszenia informacji"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.529"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.749" />
+
+    <Button
+        android:id="@+id/main_btn_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_btn_2"
+        app:layout_constraintBottom_toTopOf="@+id/main_btn_5"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <Button
+        android:id="@+id/main_btn_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_btn_4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

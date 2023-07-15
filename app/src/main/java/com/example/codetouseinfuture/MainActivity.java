@@ -8,17 +8,20 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.codetouseinfuture.Animation.AnimationActivity_1;
+import com.example.codetouseinfuture.Navigation.FromActivity;
 
 public class MainActivity extends AppCompatActivity {
-Button btn_1;
-Button btn_2;
+Button btn_1,btn_2,btn_3,btn_4;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btn_1 = findViewById(R.id.btn_1);
-        btn_2 = findViewById(R.id.btn_2);
+        btn_1 = findViewById(R.id.main_btn_1);
+        btn_2 = findViewById(R.id.main_btn_2);
+        btn_3 = findViewById(R.id.main_btn_3);
+        btn_4 = findViewById(R.id.main_btn_4);
         btn_1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -33,5 +36,13 @@ Button btn_2;
                 startActivity(intent);
             }
         });
+        btn_3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, FromActivity.class);
+                startActivity(intent);
+            }
+        });
     }
+
 }

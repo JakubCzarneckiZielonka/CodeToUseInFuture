@@ -26,7 +26,7 @@ public class TemporaryLayout extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btn = findViewById(R.id.btn_3);
+        btn = findViewById(R.id.main_btn_5);
         parentLayout = findViewById(R.id.mainLayout);
 
         btn.setOnClickListener(new View.OnClickListener() {
