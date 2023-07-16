@@ -18,7 +18,7 @@ public class FromActivity extends AppCompatActivity {
     EditText editText1,editText2;
 
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.navigation_3);
         btn1 = findViewById(R.id.navigation_3_btn_1);

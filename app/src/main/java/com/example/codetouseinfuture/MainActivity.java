@@ -11,38 +11,29 @@ import com.example.codetouseinfuture.Animation.AnimationActivity_1;
 import com.example.codetouseinfuture.Navigation.FromActivity;
 
 public class MainActivity extends AppCompatActivity {
-Button btn_1,btn_2,btn_3,btn_4;
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        Button btn_1, btn_2, btn_3, btn_4;
 
-        btn_1 = findViewById(R.id.main_btn_1);
-        btn_2 = findViewById(R.id.main_btn_2);
-        btn_3 = findViewById(R.id.main_btn_3);
-        btn_4 = findViewById(R.id.main_btn_4);
-        btn_1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this,SecondActivity.class);
+        @Override
+        protected void onCreate(Bundle savedInstanceState) {
+            super.onCreate(savedInstanceState);
+            setContentView(R.layout.activity_main);
+
+            btn_1 = findViewById(R.id.main_btn_1);
+            btn_2 = findViewById(R.id.main_btn_2);
+            btn_3 = findViewById(R.id.main_btn_3);
+            btn_4 = findViewById(R.id.main_btn_4);
+            btn_1.setOnClickListener(view -> {
+                Intent intent = new Intent(MainActivity.this, SecondActivity.class);
                 startActivity(intent);
-            }
-        });
-        btn_2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+            });
+            btn_2.setOnClickListener(view -> {
                 Intent intent = new Intent(MainActivity.this, AnimationActivity_1.class);
                 startActivity(intent);
-            }
-        });
-        btn_3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+            });
+            btn_3.setOnClickListener(view -> {
                 Intent intent = new Intent(MainActivity.this, FromActivity.class);
                 startActivity(intent);
-            }
-        });
+            });
+        }
     }
-
-}
