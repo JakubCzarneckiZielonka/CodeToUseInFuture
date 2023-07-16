@@ -1,3 +1,50 @@
 Navigation {
- .Open another activity = StartActivity + SecondActivity "navigation_1 + navigation_2"
+ .Otwórz nową aktywność = StartActivity + SecondActivity "navigation_1 + navigation_2"
+ .Przenieś dane między aktywnościami = FromActivity + ToActivity "navigation_3 + navigation_4"
+ .Stwórz dolną navigacje =
+ .stwórz wysówaną navigację =
+}
+RecyclerView{
+.stworzenie zwykłego RecyclerView =
+.otworzenie nowego okna w RecyclerView =
+.stworzenie poziomego recyclerView =
+
+}
+Animation{
+.Swipe jak z tindera =
+.animacja ładowania =
+.animacja przechodzenia między ekranami =
+.wysówanie i wsówanie przycisków z boku =
+}
+Database{
+.dodanie sqlite =
+.dodanie firebase =
+.transferowania danych z bazy danych do różnych aktywności =
+.zapisywanie odrzuceń i akceptacji do danych funkcjonalności =
+.
+}
+layout{
+.Przyciski =
+.Backgroud =
+.frame layout =
+.stworzenie layoutu jak trip advisor =
+.wyświetlanie na bierząco daty =
+}
+maps{
+.dodanie map =
+.dodanie customowych =
+.wyszukiwarka =
+.filtry
+.wyszukiwanie tylko danych rzeczy
+.
+}
+funkcjonalności {
+.timer =
+.chat w recyclerview =
+.logowanie
+.połaczenie z fb ig itp
+.pobieranie z yt
+.chat app
+.fb app
+
 }
