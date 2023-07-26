@@ -9,6 +9,7 @@ import android.widget.Button;
 
 import com.example.codetouseinfuture.Animation.AnimationActivity_1;
 import com.example.codetouseinfuture.Navigation.FromActivity;
+import com.example.codetouseinfuture.RecyclerView.MainRecyclerView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -33,6 +34,10 @@ public class MainActivity extends AppCompatActivity {
             });
             btn_3.setOnClickListener(view -> {
                 Intent intent = new Intent(MainActivity.this, FromActivity.class);
+                startActivity(intent);
+            });
+            btn_4.setOnClickListener(view -> {
+                Intent intent = new Intent(MainActivity.this, MainRecyclerView.class);
                 startActivity(intent);
             });
         }

@@ -23,6 +23,12 @@
         <activity android:name=".Navigation.ToActivity"
             android:exported="false"/>
         <activity
+            android:name=".RecyclerView.MainRecyclerView"
+            android:exported="false" />
+        <activity
+            android:name=".RecyclerView.SecondRecyclerView"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
