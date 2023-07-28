@@ -15,7 +15,7 @@ import com.example.codetouseinfuture.R;
 import java.util.List;
 
 public class MainRecyclerViewAdapter extends RecyclerView.Adapter<MainRecyclerViewAdapter.ViewHolder> {
-    private List<Item> itemList;
+    final List<Item> itemList;
     public MainRecyclerViewAdapter(List<Item> itemList){
         this.itemList = itemList;
     }

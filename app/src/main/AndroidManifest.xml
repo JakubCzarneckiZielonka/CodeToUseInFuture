@@ -12,6 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CodeToUseInFuture"
         tools:targetApi="31">
+
+        <!-- Deklaracja aktywności StartActivity -->
+        <activity
+            android:name=".Navigation.StartActivity"
+            android:exported="false" />
+
+        <!-- Pozostałe aktywności, które zostały już zadeklarowane w poprzedniej wersji manifestu -->
         <activity
             android:name=".Animation.AnimationActivity_1"
             android:exported="false" />

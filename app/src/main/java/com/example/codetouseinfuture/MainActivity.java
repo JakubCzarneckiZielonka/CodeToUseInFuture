@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
         List<Item> items = new ArrayList<>();
         try {
             AssetManager assetManager = getAssets();
-            InputStream inputStream = assetManager.open("Spis.txt");
+            InputStream inputStream = assetManager.open("Spit.txt");
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
             String line;
             Random random = new Random();
